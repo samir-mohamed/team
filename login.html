@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <section id="login" class="py-5 d-flex justify-content-center align-items-center">
+        <div class="login bg-dark w-75">
+            <h2 class="text-center text-light">Log In</h2>
+            <h3 class="text-center mt-3 text-white">
+                Already have an acount?
+                <span>
+                    <a class="text-success" href="./registration.html">Sign Up</a>
+                </span>
+            </h3>
+            <form class="user-form" action="./category.html">
+                <fieldset>
+                    <div>
+                        <label class="text-white">email address</label>
+                        <input type="email" name="email" id="user-email" class="form-control" placeholder="Enter email">
+                        <div id="alert-email" class="alert alert-danger d-none">
+                            must be a valid email start width 3 to 10 characters then @ then 2 to 10 character then .com
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-white">Password</label>
+                        <input type="password" name="password" id="user-password" class="form-control"
+                            placeholder="Enter Password">
+                        <div id="alert-password" class="alert alert-danger d-none">
+                            must be a valid password from 3 to 10 characters
+                        </div>
+                    </div>
+                    <div class="">
+                        <button id="send-form" class="btn btn-secondary mt-2">LogIn</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

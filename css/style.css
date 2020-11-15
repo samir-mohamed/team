@@ -1,0 +1,67 @@
+/* Register and Login */
+#registration, #login, #category, #blog {
+    background-color: #222;
+}
+
+#login {
+    height: 100vh;
+}
+
+.register, .login {
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+
+.user-form {
+    width: 50%;
+    margin: auto;
+}
+
+ fieldset {
+    /* border: 1px solid #000;
+    border-radius: 10px; */
+    padding: 10px;
+    /* background-color: #444; */
+} 
+ 
+.user-form input,
+.user-form textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.user-form textarea {
+    margin-bottom: 0;
+}
+
+.user-form span {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+#blog a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ddd;
+
+    transition: all 1s;
+}
+
+#blog a:hover {
+    font-weight: 800;
+    color: #aaa;
+}
+
+.bloger {
+    border-radius: 100px;
+}
